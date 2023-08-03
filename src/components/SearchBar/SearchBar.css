@@ -1,0 +1,31 @@
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    background: var(--accent_color1);
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid var(--accent_color4);
+    width: 70%;
+    filter: drop-shadow(5px 5px var(--accent_color3));
+}
+
+.search-bar-input{
+    font-size: 28px;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+    font-family: var(--font-family);
+}
+
+.search-bar-icon{
+    background-color: var(--accent_color4);
+    display: flex;
+    align-items: center;
+    min-height: 34px;
+    cursor: pointer;
+}
+
+.search-bar-icon img{
+    padding: 0 7px;
+}

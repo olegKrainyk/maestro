@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.79 30.77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8bb6ff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #8bb6ff;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Tenants_Icon" data-name="Tenants Icon">
+    <path id="Vector_280" data-name="Vector 280" class="cls-2" d="m19.32.75v29.27"/>
+    <path id="Vector_281" data-name="Vector 281" class="cls-2" d="m19.32.75l10.71,2.2v27.07"/>
+    <path id="Vector_278" data-name="Vector 278" class="cls-2" d="m17.18,2.21h1.43"/>
+    <path id="Vector_279" data-name="Vector 279" class="cls-2" d="m18.61.75h1.43"/>
+    <path id="Vector_256" data-name="Vector 256" class="cls-2" d="m5.75,13.92h2.86"/>
+    <path id="Vector_257" data-name="Vector 257" class="cls-2" d="m8.61,15.38h1.43"/>
+    <path id="Vector_258" data-name="Vector 258" class="cls-2" d="m10.75,16.12v2.93"/>
+    <path id="Vector_259" data-name="Vector 259" class="cls-2" d="m10.04,19.77h-1.43"/>
+    <path id="Vector_260" data-name="Vector 260" class="cls-2" d="m8.61,21.24h-2.86"/>
+    <path id="Vector_261" data-name="Vector 261" class="cls-2" d="m4.32,19.77h1.43"/>
+    <path id="Vector_262" data-name="Vector 262" class="cls-2" d="m3.61,19.04v-2.93"/>
+    <path id="Vector_263" data-name="Vector 263" class="cls-2" d="m4.32,15.38h1.43"/>
+    <path id="Vector_264" data-name="Vector 264" class="cls-2" d="m4.32,22.7h5.71"/>
+    <path id="Vector_265" data-name="Vector 265" class="cls-2" d="m2.89,24.16h1.43"/>
+    <path id="Vector_266" data-name="Vector 266" class="cls-2" d="m10.04,24.16h1.43"/>
+    <path id="Vector_267" data-name="Vector 267" class="cls-2" d="m1.46,25.63h1.43"/>
+    <path id="Vector_268" data-name="Vector 268" class="cls-2" d="m11.46,25.63h1.43"/>
+    <path id="Vector_269" data-name="Vector 269" class="cls-2" d="m.75,26.36v4.39"/>
+    <path id="Vector_270" data-name="Vector 270" class="cls-2" d="m13.61,26.36v4.39"/>
+    <path id="Vector_271" data-name="Vector 271" class="cls-2" d="m.75,30.02h30"/>
+    <path id="Vector_272" data-name="Vector 272" class="cls-2" d="m8.61,10.99h1.43"/>
+    <path id="Vector_273" data-name="Vector 273" class="cls-2" d="m10.04,9.53h1.43"/>
+    <path id="Vector_274" data-name="Vector 274" class="cls-2" d="m11.46,8.07h1.43"/>
+    <path id="Vector_275" data-name="Vector 275" class="cls-2" d="m12.89,6.6h1.43"/>
+    <path id="Vector_276" data-name="Vector 276" class="cls-2" d="m14.32,5.14h1.43"/>
+    <path id="Vector_277" data-name="Vector 277" class="cls-2" d="m15.75,3.68h1.43"/>
+  </g>
+  <rect class="cls-1" x="4.96" y="13.85" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="7.89" y="13.85" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="3.53" y="15.36" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="9.22" y="15.36" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="3.73" y="18.38" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="9.22" y="18.38" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="7.73" y="19.89" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="5.04" y="19.89" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="9.32" y="22.66" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="10.65" y="24.12" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="12.18" y="25.61" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="3.61" y="22.66" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="2.09" y="24.25" width="1.43" height="1.51"/>
+  <rect class="cls-1" x=".66" y="25.68" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="9.32" y="9.45" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="10.75" y="8.07" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="12.11" y="6.6" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="13.54" y="5.14" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="14.97" y="3.51" width="1.43" height="1.51"/>
+  <rect class="cls-1" x="16.4" y="2.21" width="1.43" height="1.51"/>
+</svg>

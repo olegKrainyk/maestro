@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.67 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8bb6ff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #8bb6ff;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Global_Streams_Ic" data-name="Global Streams Ic">
+    <path id="Vector_256" data-name="Vector 256" class="cls-2" d="m8.79,1h4.4"/>
+    <path id="Vector_264" data-name="Vector 264" class="cls-2" d="m22.83,1h4.4"/>
+    <path id="Vector_257" data-name="Vector 257" class="cls-2" d="m13.19,3h2.2"/>
+    <path id="Vector_265" data-name="Vector 265" class="cls-2" d="m27.24,3h2.2"/>
+    <path id="Vector_258" data-name="Vector 258" class="cls-2" d="m16.49,3.99v3.99"/>
+    <path id="Vector_266" data-name="Vector 266" class="cls-2" d="m30.54,3.99v3.99"/>
+    <path id="Vector_259" data-name="Vector 259" class="cls-2" d="m15.39,8.98h-2.2"/>
+    <path id="Vector_267" data-name="Vector 267" class="cls-2" d="m29.44,8.98h-2.2"/>
+    <path id="Vector_260" data-name="Vector 260" class="cls-2" d="m13.19,10.98h-4.4"/>
+    <path id="Vector_268" data-name="Vector 268" class="cls-2" d="m27.24,10.98h-4.4"/>
+    <path id="Vector_261" data-name="Vector 261" class="cls-2" d="m6.59,8.98h2.2"/>
+    <path id="Vector_323" data-name="Vector 323" class="cls-2" d="m4.99,19.86h2.2"/>
+    <path id="Vector_324" data-name="Vector 324" class="cls-2" d="m2.83,17.81h2.2"/>
+    <path id="Vector_325" data-name="Vector 325" class="cls-2" d="m.67,15.77h2.2"/>
+    <path id="Vector_326" data-name="Vector 326" class="cls-2" d="m4.99,22.59h2.2"/>
+    <path id="Vector_327" data-name="Vector 327" class="cls-2" d="m2.83,24.63h2.2"/>
+    <path id="Vector_328" data-name="Vector 328" class="cls-2" d="m.67,26.68h2.2"/>
+    <path id="Vector_269" data-name="Vector 269" class="cls-2" d="m20.63,8.98h2.2"/>
+    <path id="Vector_262" data-name="Vector 262" class="cls-2" d="m5.49,7.98v-3.99"/>
+    <path id="Vector_270" data-name="Vector 270" class="cls-2" d="m19.53,7.98v-3.99"/>
+    <path id="Vector_263" data-name="Vector 263" class="cls-2" d="m6.59,3h2.2"/>
+    <path id="Vector_271" data-name="Vector 271" class="cls-2" d="m20.63,3h2.2"/>
+    <path id="Vector_322" data-name="Vector 322" class="cls-2" d="m30.67,13H7.91v18h22.76V13Z"/>
+    <path id="Vector_329" data-name="Vector 329" class="cls-2" d="m1,15.77v10.91"/>
+  </g>
+  <rect class="cls-1" x="6.59" y="2" width="2.2" height="2"/>
+  <rect class="cls-1" x="14.29" y="7.13" width="2.2" height="2"/>
+  <rect class="cls-1" x="11.83" y="9.12" width="2.2" height="2"/>
+  <rect class="cls-1" x="7.91" y="9.12" width="2.2" height="2"/>
+  <rect class="cls-1" x="5.48" y="7.13" width="2.2" height="2"/>
+  <rect class="cls-1" x="8.79" y="11.46" width="4.4" height="1.54"/>
+  <rect class="cls-1" x="14.29" y="3.18" width="2.2" height="2"/>
+  <rect class="cls-1" x="11.83" y="1.19" width="2.2" height="2"/>
+  <rect class="cls-1" x="7.69" y="1" width="2.2" height="2"/>
+  <rect class="cls-1" x="5.26" y="3" width="2.2" height="2"/>
+  <rect class="cls-1" x="19.53" y="6.99" width="2.2" height="2"/>
+  <rect class="cls-1" x="21.73" y="9.12" width="2.2" height="2"/>
+  <rect class="cls-1" x="19.53" y="3" width="2.2" height="2"/>
+  <rect class="cls-1" x="21.73" y="1" width="2.2" height="2"/>
+  <rect class="cls-1" x="26.14" y="1.19" width="2.2" height="2"/>
+  <rect class="cls-1" x="28.2" y="3.18" width="2.2" height="2"/>
+  <rect class="cls-1" x="28.34" y="6.99" width="2.2" height="2"/>
+  <rect class="cls-1" x="26" y="9.12" width="2.2" height="2"/>
+  <rect class="cls-1" x="22.83" y="11.46" width="4.4" height="1.54"/>
+  <rect class="cls-1" x="3.73" y="17.81" width="2.2" height="2"/>
+  <rect class="cls-1" x="1.53" y="15.6" width="2.2" height="2"/>
+  <rect class="cls-1" x="3.93" y="22.64" width="2.2" height="2"/>
+  <rect class="cls-1" x="1.53" y="24.83" width="2.2" height="2"/>
+  <rect class="cls-1" x="1.17" y="26.97" width="1.2" height="1.2"/>
+  <rect class="cls-1" x="1.17" y="14.07" width="1.2" height="1.2"/>
+  <rect class="cls-1" x="7.91" y="13.42" width="2.2" height="18.13"/>
+  <rect class="cls-1" x="28.34" y="12.93" width="2.2" height="18.13"/>
+  <rect class="cls-1" x="3.23" y="16.28" width="1" height="1"/>
+  <rect class="cls-1" x="5.33" y="18.31" width="1" height="1"/>
+  <rect class="cls-1" x="4.37" y="17.38" width="1" height="1"/>
+  <rect class="cls-1" x="2.23" y="15.22" width="1" height="1"/>
+  <rect class="cls-1" x=".37" y="15.4" width="1" height="1"/>
+  <rect class="cls-1" x="5.43" y="23.02" width="1" height="1"/>
+  <rect class="cls-1" x="4.43" y="24.18" width="1" height="1"/>
+  <rect class="cls-1" x="3.34" y="25.18" width="1" height="1"/>
+  <rect class="cls-1" x="2.33" y="26.27" width="1" height="1"/>
+  <rect class="cls-1" x=".29" y="26.18" width="1" height="1"/>
+  <rect class="cls-1" x="1.52" y="27.43" width=".5" height="1"/>
+  <rect class="cls-1" x="1.52" y="13.82" width=".5" height="1"/>
+  <rect class="cls-1" x="2.37" y="17.18" width="1" height="1"/>
+  <rect class="cls-1" x="3.17" y="18.38" width="1" height="1"/>
+  <rect class="cls-1" x="4.23" y="19.45" width="1" height="1"/>
+  <rect class="cls-1" x="4.37" y="22.09" width="1" height="1"/>
+  <rect class="cls-1" x="3.43" y="23.08" width="1" height="1"/>
+  <rect class="cls-1" x="2.23" y="24.13" width="1" height="1"/>
+  <rect class="cls-1" x="19.03" y="7.49" width="1" height="1"/>
+  <rect class="cls-1" x="20.03" y="8.55" width="1" height="1"/>
+  <rect class="cls-1" x="21.16" y="9.62" width="1" height="1"/>
+  <rect class="cls-1" x="22.16" y="10.71" width="1" height="1"/>
+  <rect class="cls-1" x="26.61" y="10.62" width="1" height="1"/>
+  <rect class="cls-1" x="27.84" y="9.54" width="1" height="1"/>
+  <rect class="cls-1" x="28.94" y="8.48" width="1" height="1"/>
+  <rect class="cls-1" x="30.04" y="7.49" width="1" height="1"/>
+  <rect class="cls-1" x="27.71" y="7.44" width="1" height="1"/>
+  <rect class="cls-1" x="26.61" y="8.55" width="1" height="1"/>
+  <rect class="cls-1" x="22.33" y="8.55" width="1" height="1"/>
+  <rect class="cls-1" x="27.57" y="3.68" width="1" height="1"/>
+  <rect class="cls-1" x="28.56" y="4.75" width="1" height="1"/>
+  <rect class="cls-1" x="21.52" y="7.36" width="1" height="1"/>
+  <rect class="cls-1" x="20.03" y="6.36" width="1" height="1"/>
+  <rect class="cls-1" x="26.61" y="2.62" width="1" height="1"/>
+  <rect class="cls-1" x="25.44" y="1.62" width="1" height="1"/>
+  <rect class="cls-1" x="22.33" y="2.5" width="1" height="1"/>
+  <rect class="cls-1" x="23.53" y="1.5" width="1" height="1"/>
+  <rect class="cls-1" x="21.41" y="3.68" width="1" height="1"/>
+  <rect class="cls-1" x="20.13" y="4.68" width="1" height="1"/>
+  <rect class="cls-1" x="29" y="5.66" width="1" height="1.57"/>
+  <rect class="cls-1" x="13.6" y="3.68" width="1" height="1"/>
+  <rect class="cls-1" x="14.67" y="4.71" width="1" height="1"/>
+  <rect class="cls-1" x="14.67" y="6.49" width="1" height="1"/>
+  <rect class="cls-1" x="12.43" y="2.68" width="1" height="1"/>
+  <rect class="cls-1" x="11.11" y="1.69" width="1" height="1"/>
+  <rect class="cls-1" x="13.68" y="7.55" width="1" height="1"/>
+  <rect class="cls-1" x="12.49" y="8.41" width="1" height="1"/>
+  <rect class="cls-1" x="11.15" y="9.41" width="1" height="1"/>
+  <rect class="cls-1" x="8.34" y="2.53" width="1" height="1"/>
+  <rect class="cls-1" x="9.39" y="1.69" width="1" height="1"/>
+  <rect class="cls-1" x="7.12" y="3.59" width="1" height="1"/>
+  <rect class="cls-1" x="6.09" y="4.71" width="1" height="1"/>
+  <rect class="cls-1" x="6.12" y="6.55" width="1" height="1"/>
+  <rect class="cls-1" x="7.12" y="7.55" width="1" height="1"/>
+  <rect class="cls-1" x="8.29" y="8.55" width="1" height="1"/>
+  <rect class="cls-1" x="8.71" y="8.8" width="1" height="1"/>
+  <rect class="cls-1" x="9.57" y="9.41" width="1" height="1"/>
+  <rect class="cls-1" x="13.6" y="9.62" width="1" height="1"/>
+  <rect class="cls-1" x="14.89" y="8.62" width="1" height="1"/>
+  <rect class="cls-1" x="16.07" y="7.63" width="1" height="1"/>
+  <rect class="cls-1" x="12.46" y="9.04" width="1" height="1"/>
+  <rect class="cls-1" x="12.49" y="10.67" width="1" height="1"/>
+  <rect class="cls-1" x="8.21" y="10.67" width="1" height="1"/>
+  <rect class="cls-1" x="7.19" y="9.62" width="1" height="1"/>
+  <rect class="cls-1" x="5.88" y="8.7" width="1" height="1"/>
+  <rect class="cls-1" x="4.89" y="7.63" width="1" height="1"/>
+  <rect class="cls-1" x="7.46" y="9.98" width="1" height="1"/>
+  <rect class="cls-1" x="6.88" y="9.3" width="1" height="1"/>
+  <rect class="cls-1" x="4.83" y="3.49" width="1" height="1"/>
+  <rect class="cls-1" x="5.86" y="2.37" width="1" height="1"/>
+  <rect class="cls-1" x="7.08" y="1.38" width="1" height="1"/>
+  <rect class="cls-1" x="8.12" y=".42" width="1" height="1"/>
+  <rect class="cls-1" x="12.69" y=".69" width="1" height="1"/>
+  <rect class="cls-1" x="13.43" y="1.58" width="1" height="1"/>
+  <rect class="cls-1" x="15.02" y="2.53" width="1" height="1"/>
+  <rect class="cls-1" x="16.07" y="3.63" width="1" height="1"/>
+  <rect class="cls-1" x="18.92" y="3.39" width="1" height="1"/>
+  <rect class="cls-1" x="20.03" y="2.37" width="1" height="1"/>
+  <rect class="cls-1" x="21.13" y="1.36" width="1" height="1"/>
+  <rect class="cls-1" x="22.2" y=".3" width="1" height="1"/>
+  <rect class="cls-1" x="26.86" y=".5" width="1" height="1"/>
+  <rect class="cls-1" x="27.94" y="1.5" width="1" height="1"/>
+  <rect class="cls-1" x="29" y="2.51" width="1" height="1"/>
+  <rect class="cls-1" x="30.04" y="3.44" width="1" height="1"/>
+</svg>

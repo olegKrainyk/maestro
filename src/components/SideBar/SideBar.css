@@ -1,0 +1,36 @@
+.SideBar-Wrapper{
+    height: 100vh;
+    position: fixed;
+    width: 64px;
+    background: linear-gradient(#0E131A, #00004D);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.sidebar-icon{
+    height: 42px;
+}
+
+.navlink{
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navlink:hover{
+    background-color: var(--black);
+}
+
+.activelink{
+    background-color: var(--black);
+}
+
+
+.logout-btn:hover{
+    background-color: var(--black);
+}
+

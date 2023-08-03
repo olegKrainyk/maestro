@@ -1,0 +1,15 @@
+.userLoggedIn-Wrapper{
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.user-info-block{
+    padding: 0 12px;
+}
+
+.user-logged-picture{
+    height: 40px;
+    padding-right: 23px;
+}
