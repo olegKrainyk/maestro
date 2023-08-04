@@ -27,7 +27,7 @@ export default function Login(props){
         background: ['#000','#000','#000', '#000', '#1B2330']
       }} transition={{ duration: 1.2, delay: 0.6}}>
 
-        <motion.img src={logo} alt='ceai logo' className='logo-login-page' animate={{rotate: [360, 0], opacity: [0, 1]}} transition={{duration: 0.4, delay: 1.5}}></motion.img>
+        <motion.img src={logo} alt='ceai logo' className='logo-login-page icon' animate={{rotate: [360, 0], opacity: [0, 1]}} transition={{duration: 0.4, delay: 1.5}}></motion.img>
         <div className='login-header '>Cutting Edge AI</div>
         <div className='login-item'>Sign in to your account</div>
 

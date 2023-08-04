@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function SideBarIcon(props){
   return (
     
-      <motion.img src={props.icon_path} className='sidebar-icon' initial={{ opacity: 0, scale: 1 }}
+      <motion.img src={props.icon_path} className='sidebar-icon icon' initial={{ opacity: 0, scale: 1 }}
       animate={{
         scale: [1.5, 1],
         rotate: [90, 0],

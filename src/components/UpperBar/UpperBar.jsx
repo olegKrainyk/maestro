@@ -26,7 +26,7 @@ export default function UpperBar(){
 
   return (
     <div className="UpperBar-Wrapper">
-      <motion.img src={logo} className='logo' variants={variants} animate={foundEasterEgg ? 'rotate' : 'stop'} onClick={handleLogoClick}></motion.img>
+      <motion.img src={logo} className='logo icon' variants={variants} animate={foundEasterEgg ? 'rotate' : 'stop'} onClick={handleLogoClick}></motion.img>
       <UserLoggedIn></UserLoggedIn>
     </div>
   );
