@@ -77,38 +77,6 @@ body{
   cursor: pointer;
 }
 
-.content-corners{
-  margin-top: 30px;
-  height: 85%;
-}
-
-.corner{
-  position: absolute;
-  scale: 70%;
-}
-
-.corner-l-t{
-  rotate: 0deg;
-}
-
-.corner-l-b{
-  bottom: 0;
-  rotate: -90deg;
-}
-
-.corner-r-b{
-  right: 0px;
-  bottom: 0px;
-  margin-right: 40px;
-  rotate: 180deg;
-}
-
-.corner-r-t{
-  rotate: 90deg;
-  margin-right: 40px;
-  right: 0px;
-}
-
 .icon{
   user-select: none;
     -webkit-user-drag: none;
