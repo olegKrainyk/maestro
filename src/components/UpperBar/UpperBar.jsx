@@ -21,7 +21,6 @@ export default function UpperBar(){
       setLogoCounter(0);
       setTimeout(() => {setFoundEasterEgg(false)},1100);
     }
-    
   }
 
   return (

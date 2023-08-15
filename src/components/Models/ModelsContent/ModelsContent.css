@@ -1,0 +1,211 @@
+.flex-table{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex-table-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2% 0;
+    justify-content: space-between;
+}
+
+.flex-table-row:first-child{
+    margin-top: 10px;
+}
+.flex-table-row:last-child{
+    margin-bottom: 0;
+}
+
+.flex-table-item{
+    text-transform: capitalize;
+    width: 23%;
+    padding: 15px;
+    margin: 0 10px;
+    height: 100%;
+    text-align: center;
+    vertical-align: baseline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-table-row:first-child div{
+    background-color: rgb(59, 59, 59);
+    font-weight: 700;
+    color: var(--accent_color1);
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.model-sidebar{
+    position: fixed;
+    top:0;
+    left:-100%;
+    height: 100vh;
+    z-index: 11;
+    width: 28%;
+    background-color: rgba(149, 184, 230, 0.95);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    border-top-right-radius: 30px;
+}
+
+.remove-model-sidebar{
+    background-color: rgba(41, 67, 119, 0.95);
+}
+
+.sidebar-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-confirmation-btn{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid var(--white);
+}
+
+.remove-confirmation-btn:hover{
+    background-color: var(--red);
+}
+
+.model-sidebar-selection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    padding: 0;
+    border: 2px solid var(--white);
+}
+
+.models-to-delete{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 10px;
+    text-transform: capitalize;
+}
+
+.models-to-delete:first-child{
+    padding-top: 25px;
+}
+.models-to-delete:last-child{
+    padding-bottom: 25px;
+}
+
+.models-to-delete .model-type{
+    width: 27%;
+    
+}
+.models-to-delete .model-name{
+    width: 55%;
+}
+.models-to-delete .model-colon{
+    width: 7%;
+}
+.models-to-delete .model-delete{
+    width: 20px;
+
+}
+
+.close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.models-to-delete-active{
+    background-color: var(--accent_color1);
+}
+
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+        transform: rotate(360deg);
+    }
+  }
+
+.models-to-delete-active .model-delete{
+    transform-origin: 50%;
+    animation-name: rotate;
+    animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+
+.delete-models-window-wrapper{
+    display: flex;
+    position: fixed;
+    z-index: 13;
+    top: -100%;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-models-window {
+    position: absolute;
+    height: 60vh;
+    width: 60%;
+    background-color: var(--accent_color2);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.remove-window-close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.models-to-delete-window-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.models-to-delete-window-list-item{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.delete-window-header-content-wrapper{
+    height: 75%;
+    overflow-y: scroll;
+}
+
+.remove-window-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+.remove-window-buttons .delete-btn, .remove-window-buttons .cancel-btn{
+    padding: 14px 25px;
+    border: 2px solid var(--white);
+}
+
+.remove-window-buttons .delete-btn:hover{
+    background-color: var(--red);
+}
+
+.models-to-delete-window-list-item .model-type{
+    width: 20%;
+}
+.models-to-delete-window-list-item .model-name{
+    width: 70%;
+}

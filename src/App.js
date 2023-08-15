@@ -26,7 +26,6 @@ function App(props) {
 
   return (
     <div className="App">
-
       <UpperBar />
       <SideBar setLoggedIn={props.setLoggedIn}/>
        
@@ -39,7 +38,6 @@ function App(props) {
       </Routes>
 
       </AnimatePresence>
-      
       
     </div>
   );

@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&family=Yantramanav:wght@400;500;700&display=swap');
+@font-face {
+  font-family: VT323;
+  src: url(./VT323/VT323-Regular.ttf);
+}
 
 :root{
   --accent_color1: #8BB6FF;
@@ -7,6 +10,7 @@
   --accent_color4: #B2CEFE;
   --white: #fff;
   --black: #000;
+  --red: #C0392B;
   --white_transparent: rgba(255, 255, 255, 0.5);
   --font-family: VT323;
 }
@@ -16,6 +20,13 @@
  font-weight: 700;
  font-size: 65px;
  letter-spacing: 10px;
+}
+
+.header-middle{
+  color: var(--white);
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 5px;
 }
 
 .bigger_text{
@@ -84,4 +95,5 @@ body{
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    cursor: pointer;
 }
