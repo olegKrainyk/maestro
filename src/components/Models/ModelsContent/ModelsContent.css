@@ -13,6 +13,9 @@
     margin: 2% 0;
     justify-content: space-between;
 }
+.invisible{
+    display: none;
+}
 
 .flex-table-row:first-child{
     margin-top: 10px;
@@ -34,8 +37,12 @@
     justify-content: center;
 }
 
+.flex-table-item-active{
+    background-color: var(--accent_color1_transparent);
+}
+
 .flex-table-row:first-child div{
-    background-color: rgb(59, 59, 59);
+    border: 2px solid var(--accent_color1);
     font-weight: 700;
     color: var(--accent_color1);
     font-size: 32px;
@@ -48,12 +55,13 @@
     left:-100%;
     height: 100vh;
     z-index: 11;
-    width: 28%;
+    width: 34%;
     background-color: rgba(149, 184, 230, 0.95);
     display: flex;
     flex-direction: column;
     padding: 40px 20px;
-    border-top-right-radius: 30px;
+    border-top-right-radius: 15px;
+    overflow-y: scroll;
 }
 
 .remove-model-sidebar{
@@ -63,17 +71,24 @@
 .sidebar-controls{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .remove-confirmation-btn{
     margin-top: 20px;
     padding: 10px;
     border: 2px solid var(--white);
+    transition: var(--transition);
 }
 
 .remove-confirmation-btn:hover{
     background-color: var(--red);
+    transition: var(--transition);
+}
+
+.models-select-all:hover{
+    background-color: var(--accent_color1);
+    transition: var(--transition);
 }
 
 .model-sidebar-selection{
@@ -82,6 +97,8 @@
     margin-top: 24px;
     padding: 0;
     border: 2px solid var(--white);
+    height: 70%;
+    overflow-y: scroll;
 }
 
 .models-to-delete{
@@ -89,6 +106,7 @@
     flex-direction: row;
     padding: 12px 10px;
     text-transform: capitalize;
+    transition: var(--transition);
 }
 
 .models-to-delete:first-child{
@@ -99,30 +117,58 @@
 }
 
 .models-to-delete .model-type{
-    width: 27%;
+    width: 34%;
     
 }
 .models-to-delete .model-name{
-    width: 55%;
+    width: 48%;
 }
 .models-to-delete .model-colon{
     width: 7%;
+    user-select: none;
 }
 .models-to-delete .model-delete{
     width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.models-to-delete .model-delete img{
+    width: 20px;
 }
 
 .close-btn{
     position: absolute;
     top: 20px;
     right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    scale: 1.2;
+    transform: rotate(90deg);
+    transition: 0.3s;
+}
+
+.close-btn img{
+    width: 20px;
 }
 
 .models-to-delete-active{
     background-color: var(--accent_color1);
+    transition: var(--transition);
+}
+.models-to-delete-active:hover{
+    background-color: var(--accent_color1) !important;
 }
 
+.models-to-delete:hover{
+    background-color: var(--accent_color1_transparent);
+    transition: var(--transition);
+}
 
 @keyframes rotate {
     from {
@@ -133,14 +179,29 @@
         transform: rotate(360deg);
     }
   }
+@keyframes derotate {
+    from {
+      transform: rotate(360deg);
+    }
+  
+    to {
+        transform: rotate(0deg);
+    }
+  }
 
-.models-to-delete-active .model-delete{
+.models-to-delete .model-delete{
     transform-origin: 50%;
-    animation-name: rotate;
+    animation-name: derotate;
     animation-duration: 0.4s;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.models-to-delete-active .model-delete{
+    animation-name: rotate;
+    transform-origin: 50%;
+    animation-duration: 0.4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
 .delete-models-window-wrapper{
     display: flex;
@@ -160,12 +221,6 @@
     background-color: var(--accent_color2);
     border-radius: 20px;
     padding: 40px;
-}
-
-.remove-window-close-btn{
-    position: absolute;
-    top: 20px;
-    right: 20px;
 }
 
 .models-to-delete-window-list{
@@ -193,14 +248,20 @@
     margin-top: 30px;
 }
 
-
 .remove-window-buttons .delete-btn, .remove-window-buttons .cancel-btn{
     padding: 14px 25px;
     border: 2px solid var(--white);
+    transition: var(--transition);
 }
 
 .remove-window-buttons .delete-btn:hover{
     background-color: var(--red);
+    transition: var(--transition);
+}
+
+.remove-window-buttons .cancel-btn:hover{
+    background-color: var(--accent_color1);
+    transition: var(--transition);
 }
 
 .models-to-delete-window-list-item .model-type{
@@ -208,4 +269,50 @@
 }
 .models-to-delete-window-list-item .model-name{
     width: 70%;
+}
+.models-filter-list-wrapper{
+    color: var(--yellow);
+    margin-top: 0;
+}
+
+.models-filter-list-wrapper .flex-table-item{
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 3px solid var(--yellow);
+}
+
+.add-model-input-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 3px solid var(--accent_color4);
+}
+
+.add-model-input-list input{
+    color: var(--black);
+    font-family: var(--font-family);
+    margin: 20px 0;
+    font-size: 30px;
+    padding: 12px 15px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    transition: var(--transition);
+}
+
+.add-model-input-list input:hover{
+    background-color: var(--accent_color2_transparent);
+    transition: var(--transition);
+}
+
+.add-model-input-list input::placeholder{
+    color: var(--white);
+}
+
+.fileds-required-text{
+    color: var(--red);
+    opacity: 1;
+    padding: 10px 15px;
+    font-size: 25px;
 }

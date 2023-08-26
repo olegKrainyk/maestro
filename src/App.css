@@ -5,14 +5,19 @@
 
 :root{
   --accent_color1: #8BB6FF;
+  --accent_color1_transparent: rgba(139, 182, 255, 0.2);
   --accent_color2: #1B2330;
+  --accent_color2_transparent: rgba(27, 35, 48, 0.3);
   --accent_color3: #0062F5;
   --accent_color4: #B2CEFE;
   --white: #fff;
   --black: #000;
   --red: #C0392B;
+  --green: #4DB6AC;
+  --yellow: #F1C40F;
   --white_transparent: rgba(255, 255, 255, 0.5);
   --font-family: VT323;
+  --transition: 0.15s;
 }
 
 .header{
@@ -66,7 +71,7 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .edit-components{
@@ -74,13 +79,15 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 55%;
+  width: 60%;
 }
 
 .edit-btns{
   display: flex;
   flex-direction: row;
-  width: 20%;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .edit-btns div{

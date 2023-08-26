@@ -4,9 +4,7 @@ import { useState } from 'react';
 import App from './App'
 import Login from './components/Login/Login'
 
-
 function AppContainer() {
-
     const [loggedin, setLoggedIn] = useState(localStorage.getItem("loggedin"));
 
     return(

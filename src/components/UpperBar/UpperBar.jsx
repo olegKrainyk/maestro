@@ -10,8 +10,8 @@ export default function UpperBar(){
   const [foundEasterEgg, setFoundEasterEgg] = useState(false);
 
   const variants = {
-    rotate: { rotate: [-720, 0], filter: ['drop-shadow(0px 0px 30px blue) invert(30%)', 'drop-shadow(0px 0px 50px green) invert(50%)', 'drop-shadow(0px 0px 100px yellow) invert(100%)', 'drop-shadow(0 0 50px white) invert(10%)', 'drop-shadow(0 0 0 0) invert(0%)'], transition: { duration: 1 }, },
-    stop: {rotate:[0], filter: 'drop-shadow(0 0 0 0) invert(0%)',transition: { duration: 1 }}
+    rotate: { rotate: [-720, 0], filter: ['drop-shadow(0px 0px 30px blue) invert(30%)', 'drop-shadow(0px 0px 50px green) invert(50%)', 'drop-shadow(0px 0px 100px yellow) invert(100%)', 'drop-shadow(0 0 50px white) invert(10%)', 'drop-shadow(0 0 0 #fff) invert(0)'], transition: { duration: 1 }, },
+    stop: {rotate:[0], filter: 'drop-shadow(0 0 0 #fff) invert(0)',transition: { duration: 1 }}
   };
   
   const handleLogoClick = () => {

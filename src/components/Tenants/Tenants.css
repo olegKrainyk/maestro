@@ -1,0 +1,9 @@
+.change-content-view-btn{
+    font-size: 28px;
+    color: var(--black);
+    border: 5px solid var(--accent_color4);
+    filter: drop-shadow(5px 5px var(--accent_color3));
+    background-color: var(--accent_color1);
+    padding: 4px 10px;
+    width: 30%;
+}

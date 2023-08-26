@@ -9,7 +9,9 @@ export default function Login(props){
 
     const handleClick = () => {
         localStorage.setItem("loggedin", true);
-        navigate('/'+localStorage.getItem('active-page'));
+        let navigateTo = localStorage.getItem('active-page') != null ? localStorage.getItem('active-page') : 'tenants';
+        localStorage.setItem('active-page', localStorage.getItem('active-page') != null ? localStorage.getItem('active-page') :'tenants');
+        navigate('/'+navigateTo );
         props.setLoggedIn('true');
     }
 
