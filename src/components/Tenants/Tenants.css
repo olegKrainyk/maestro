@@ -4,6 +4,16 @@
     border: 5px solid var(--accent_color4);
     filter: drop-shadow(5px 5px var(--accent_color3));
     background-color: var(--accent_color1);
-    padding: 4px 10px;
-    width: 30%;
+    padding: 4px 6px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.change-content-view-btn img{
+    width: 20px;
+    height: 20px;
+    display: block;
 }

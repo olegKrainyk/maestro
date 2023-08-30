@@ -35,10 +35,11 @@ export default function ModelsRemoveSidebar(props){
 
         setModelsToDelete(modelsToDelete.filter((e) => {return !modelsIds?.includes(e.id)}));
         props.setModelsData(props.modelsData.filter((e) => {return !modelsIds?.includes(e.id)}));
+        props.setDisplayModelsData(props.modelsData.filter((e) => {return !modelsIds?.includes(e.id)}));
         
-        console.log('removed all selected models');
         setDeleteModelesWindowOpen(false);
         props.setFilterRowOpen(false);
+        
     }
 
     const addModelToRemove = (id, name, type) => {

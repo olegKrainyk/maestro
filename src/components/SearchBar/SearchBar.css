@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     border: 5px solid var(--accent_color4);
-    width: 70%;
+    width: 50%;
     filter: drop-shadow(5px 5px var(--accent_color3));
 }
 
@@ -16,6 +16,10 @@
     outline: none;
     width: 90%;
     font-family: var(--font-family);
+}
+
+.search-bar-input::placeholder{
+    color: var(--black);
 }
 
 .search-bar-icon{

@@ -21,7 +21,6 @@ function App(props) {
     currentPage = <GlobalStreams />
   } else if(localStorage.getItem("active-page") === "login"){
     currentPage = <Login />
-
   }
 
   return (

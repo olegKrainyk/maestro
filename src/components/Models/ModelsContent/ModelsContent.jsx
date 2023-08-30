@@ -29,9 +29,10 @@ export default function ModelsContent(props){
       
       setFilterRowOpen(!filterRowOpen);
       if(type.type !== 'all'){
-        console.log("filtering isn't available for "+type.type+ ' right now');
+        setDisplayModelsData(modelsData.filter((model) => {return type.type === model.type.toLowerCase()}));
       } else {
-        console.log('showing all');
+        setDisplayModelsData(modelsData);
+
       }
   }
 
@@ -56,18 +57,16 @@ export default function ModelsContent(props){
     <motion.div className='flex-table-row models-filter-list-wrapper' variants={filter_row_animations} animate={filterRowOpen ? 'open' : 'close'}>
           {
             filter_types.map((type) => {
-              const filterTypeInternal = () => {
-                  filterType(type);
-              }
+              
               return(
-                <div onClick={filterTypeInternal} className='flex-table-item icon' key={type.id}>{type.type}</div>
+                <div onClick={() => {filterType(type);}} className='flex-table-item icon' key={type.id}>{type.type}</div>
               );
             })
           }
       </motion.div>
 
     {   
-      modelsData.map((model) => {
+      displayModelsData.map((model) => {
         return(
           <div className={model.visible === 1 ? 'flex-table-row' : 'flex-table-row invisible'} key={model.id}>
             <div className='flex-table-item'><>{model.type}</></div>
@@ -79,8 +78,8 @@ export default function ModelsContent(props){
     })}
   </div>
 
-  <ModelsRemoveSidebar modelsData={modelsData} displayModelsData={displayModelsData} setModelsData={setModelsData} isRemoveOpen={props.isRemoveOpen} setRemoveOpen={props.setRemoveOpen} handleCloseRemoveSidebarClick={handleCloseRemoveSidebarClick} setFilterRowOpen={setFilterRowOpen} />
-  <ModelsAddSidebar modelsData={modelsData} displayModelsData={displayModelsData} setModelsData={setModelsData} isAddOpen={props.isAddOpen} setAddOpen={props.setAddOpen} handleCloseAddSidebarClick={handleCloseAddSidebarClick} />
+  <ModelsRemoveSidebar modelsData={modelsData} displayModelsData={displayModelsData} setModelsData={setModelsData} isRemoveOpen={props.isRemoveOpen} setRemoveOpen={props.setRemoveOpen} handleCloseRemoveSidebarClick={handleCloseRemoveSidebarClick} setFilterRowOpen={setFilterRowOpen} setDisplayModelsData={setDisplayModelsData} />
+  <ModelsAddSidebar modelsData={modelsData} displayModelsData={displayModelsData} setModelsData={setModelsData} isAddOpen={props.isAddOpen} setAddOpen={props.setAddOpen} handleCloseAddSidebarClick={handleCloseAddSidebarClick} setDisplayModelsData={setDisplayModelsData} />
     
 </>
   );

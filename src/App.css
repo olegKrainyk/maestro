@@ -6,6 +6,7 @@
 :root{
   --accent_color1: #8BB6FF;
   --accent_color1_transparent: rgba(139, 182, 255, 0.2);
+  --accent_color1_transparent2: rgba(139, 182, 255, 0.6);
   --accent_color2: #1B2330;
   --accent_color2_transparent: rgba(27, 35, 48, 0.3);
   --accent_color3: #0062F5;
@@ -72,6 +73,7 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  flex-shrink: 2;
 }
 
 .edit-components{
