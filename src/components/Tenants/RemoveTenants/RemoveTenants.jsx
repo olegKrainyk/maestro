@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Header2 from '../../Header2/Header2'
 import close_icon from '../../../icons/close_icon.svg'
 import profile_icon from '../../../icons/profile_icon.svg'
+import ConfirmationWindow from '../../ConfirmationWindow/ConfirmationWindow'
 
 export default function RemoveTenants(props){
 
@@ -41,8 +42,7 @@ export default function RemoveTenants(props){
       setTenantsToDelete(tenantsToDelete.filter((tenant) => { return tenant.id !== id}));
   } else{
       setTenantsToDelete([...tenantsToDelete, {id: id, name: name}]);
-  }
-  }
+  }}
 
   const toggleAllTenantsToDelete = () => {
     if(tenantsToDelete.length !== props.tenantsData.length){
@@ -64,9 +64,9 @@ export default function RemoveTenants(props){
                 props.tenantsData.map((tenant) => {
                   
                   return(
-                      <div className={tenantsToDelete.filter(function(e) { return e.id === tenant.id; }).length > 0 ? 'single-tenant-active single-tenant icon' : 'single-tenant icon'} key={tenant.id} onClick={() => {addTenantToRemove(tenant.id, tenant.name)}}>
-                          <img className='tenant-profile-picture' src={profile_icon} alt='profile img' />
-                          <div className='single-tenant-name'>{tenant.name}</div>
+                      <div className={tenantsToDelete.filter(function(e) { return e.id === tenant.id; }).length > 0 ? 'single-tenant-active single-tenant icon' : 'single-tenant icon'} key={tenant.id} onClick={() => {addTenantToRemove(tenant.id, tenant.name)}}>    
+                            <img className='tenant-profile-picture' src={profile_icon} alt='profile img' />
+                            <div className='single-tenant-name'>{tenant.name}</div>
                       </div>
                   );
               })}
@@ -81,17 +81,7 @@ export default function RemoveTenants(props){
       </div>  
     </motion.div>
 
-    {deleteTenantsWindowOpen ?
-    (<motion.div className='remove-tanants-window-wrapper' animate={{opacity: [0, 0, 0, 1],transform: ['translateY(-40px)', 'translateY(0px)'], transition: {duration: 0.4}}}>
-      <div className='remove-tanants-window'>
-        <div>Are you sure?</div>
-        <div className="tenant-selection-controls">
-            <div onClick={handleCloseRemoveWindowClick} className="icon remove-confirmation-btn models-select-all">Cancel</div>
-            <div onClick={removeTenants} className="icon remove-confirmation-btn">Delete</div>
-        </div>
-      </div>
-    </motion.div>) : (<></>)
-}
+    {deleteTenantsWindowOpen ? (<ConfirmationWindow remove={removeTenants} handleCloseRemoveWindowClick={handleCloseRemoveWindowClick} />) : (<></>) }
     </>
   );
 }

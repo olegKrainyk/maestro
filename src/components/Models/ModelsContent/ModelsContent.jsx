@@ -32,7 +32,6 @@ export default function ModelsContent(props){
         setDisplayModelsData(modelsData.filter((model) => {return type.type === model.type.toLowerCase()}));
       } else {
         setDisplayModelsData(modelsData);
-
       }
   }
 
@@ -48,7 +47,7 @@ export default function ModelsContent(props){
   <div className='flex-table'>
 
     <div className='flex-table-row'>
-      <div className={filterRowOpen ? 'flex-table-item flex-table-item-active' : 'flex-table-item'} onClick={handleOpenFilterRow}><>type</></div>
+      <div className={filterRowOpen ? 'flex-table-item flex-table-item-active icon' : 'flex-table-item icon'} onClick={handleOpenFilterRow}><>type</></div>
       <div className='flex-table-item'><>model name</></div>
       <div className='flex-table-item'><>description</></div>
       <div className='flex-table-item'><>files</></div>
@@ -65,17 +64,17 @@ export default function ModelsContent(props){
           }
       </motion.div>
 
-    {   
-      displayModelsData.map((model) => {
-        return(
-          <div className={model.visible === 1 ? 'flex-table-row' : 'flex-table-row invisible'} key={model.id}>
-            <div className='flex-table-item'><>{model.type}</></div>
-            <div className='flex-table-item'><>{model.name}</></div>
-            <div className='flex-table-item'><>{model.description}</></div>
-            <div className='flex-table-item'><>{model.files}</></div>
-          </div>
-        );
-    })}
+      {   
+        displayModelsData.map((model) => {
+          return(
+            <div className={model.visible === 1 ? 'flex-table-row' : 'flex-table-row invisible'} key={model.id}>
+              <div className='flex-table-item'><>{model.type}</></div>
+              <div className='flex-table-item'><>{model.name}</></div>
+              <div className='flex-table-item'><>{model.description}</></div>
+              <div className='flex-table-item'><>{model.files}</></div>
+            </div>
+          );
+      })}
   </div>
 
   <ModelsRemoveSidebar modelsData={modelsData} displayModelsData={displayModelsData} setModelsData={setModelsData} isRemoveOpen={props.isRemoveOpen} setRemoveOpen={props.setRemoveOpen} handleCloseRemoveSidebarClick={handleCloseRemoveSidebarClick} setFilterRowOpen={setFilterRowOpen} setDisplayModelsData={setDisplayModelsData} />

@@ -1,0 +1,50 @@
+.tenant-remove-selection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.tenant-remove-selection .single-tenant{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    transition: var(--transition);
+    padding: 10px;
+}
+
+.tenant-remove-selection .single-tenant .tenant-profile-picture{
+    width: 80%;
+    min-height: 150px;
+    align-self: center;
+}
+
+.tenant-remove-selection .single-tenant .single-tenant-name{
+    font-size: 17px;
+}
+
+.tenant-remove-selection .single-tenant:hover{
+    background-color: var(--accent_color1_transparent);
+    transition: var(--transition);
+}
+
+.single-tenant-active{
+    background-color: var(--accent_color1_transparent2);
+    transition: var(--transition);
+}
+
+.single-tenant-active:hover{
+    background-color: var(--accent_color1_transparent2) !important;
+    transition: var(--transition);
+}
+
+.tenant-selection-controls{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 15%;
+}

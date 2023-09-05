@@ -41,7 +41,7 @@ function Tenants(){
             <div className='edit-components'>
               <SearchBar placeholder='Search tenants' />
               <div className='edit-btns'>
-                  <div className='change-content-view-btn icon' onClick={handleChangeViewClick}>{isListSelected ? 'Show Grid' : 'Show List'}<motion.img src={dropdown_icon} variants={btn_animations} animate={isListSelected ? 'open' : 'close'}/></div>
+                  <div className='change-content-view-btn icon' onClick={handleChangeViewClick}>{isListSelected ? 'Tile View' : 'List View'}<motion.img src={dropdown_icon} variants={btn_animations} animate={isListSelected ? 'open' : 'close'}/></div>
 
                   <AddButton setIsAddTenantOpen={setIsAddTenantOpen} isAddTenantOpen={isAddTenantOpen} setIsRemoveTenantsOpen={setIsRemoveTenantsOpen} isRemoveTenantsOpen={isRemoveTenantsOpen} />
                   <RemoveButton setIsRemoveTenantsOpen={setIsRemoveTenantsOpen} isRemoveTenantsOpen={isRemoveTenantsOpen} setIsAddTenantOpen={setIsAddTenantOpen} isAddTenantOpen={isAddTenantOpen} />
